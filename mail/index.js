@@ -14,12 +14,12 @@ user_email = prompt("Inserisci la tua email");
 
 if (email_list.includes(user_email)) {
   alert("Hai inserito correttamente la tua email");
-  console.log(user_email);
+  console.log("Hai inserito correttamente la tua email");
   }
 
   else {
   alert("Email non corretta, riprova");
-  console.log(user_email);
+  console.log("Email non corretta, riprova");
 } 
 
 
