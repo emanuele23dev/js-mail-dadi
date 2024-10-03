@@ -7,14 +7,14 @@ console.log(`Il giocatore ha ottenuto il numero ${user}`);
 console.log(`Il computer ha ottenuto il numero ${computer}`);
 
 if (user > computer) {
-  console.log("Il giocatore vince");
+  alert("Il giocatore vince");
 }
 else if (user < computer) {
-    console.log("Il computer vince");
+    alert("Il computer vince");
 }
 
 else {
-    console.log('Abbiamo un pareggio');
+    alert('Abbiamo un pareggio');
 }
     
     
