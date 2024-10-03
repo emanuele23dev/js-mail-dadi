@@ -13,8 +13,12 @@ let email_list = [
 user_email = prompt("Inserisci la tua email");
 
 if (email_list.includes(user_email)) {
-  console.log("Hai inserito correttamente la tua email");
+  alert("Hai inserito correttamente la tua email");
 }
 else {
-  console.log("Email non corretta, riprova");
+  alert("Email non corretta, riprova");
 }
+
+console.log(user_email);
+
+
